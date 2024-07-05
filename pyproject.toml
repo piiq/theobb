@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "theobb"
+version = "1.0.0"
+description = "The obb and nothing else."
+authors = ["Theodore <aptekarev@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "openbb" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+openbb-core = "^1.2.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
